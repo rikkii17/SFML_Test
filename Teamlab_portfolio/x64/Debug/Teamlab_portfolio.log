@@ -1,6 +1,6 @@
-﻿  Ball.cpp
+﻿  main.cpp
 D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: DLL インターフェイスではない class 'std::runtime_error' が DLL インターフェイスのベースになる class 'sf::Exception' として使われています。
-  (ソース ファイル 'Ball.cpp' をコンパイルしています)
+  (ソース ファイル 'main.cpp' をコンパイルしています)
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdexcept(100,19):
       'std::runtime_error' の宣言を確認してください
       D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
