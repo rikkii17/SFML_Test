@@ -8,8 +8,8 @@
 
 class Ball {
 public:
-	
-	Ball(float radius, const sf::Color& color, sf::Vector2f start_ppsition, sf::Vector2f speed);
+
+	Ball(float radius, const sf::Color& color, sf::Vector2f start_position, sf::Vector2f speed);
 	//コンストラクタ
 
 	//メゾット(描画)
@@ -21,4 +21,5 @@ private:
 	sf::Vector2f m_start_position;//書記位置
 	sf::Vector2f m_speed;//速度
 	sf::CircleShape m_circle;//円描画変数
+};
 #endif // BALL_H
