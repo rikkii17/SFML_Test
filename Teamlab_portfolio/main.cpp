@@ -27,7 +27,7 @@ int main() {
 			if (event->is < sf::Event::MouseButtonPressed>()) {
 				sf::Vector2i mouseposint = sf::Mouse::getPosition(mainwindow);
 				sf::Vector2f mouseposfloat(static_cast<float>(mouseposint.x), static_cast<float>(mouseposint.y));
-				Ball myball(circle_size, sf::Color(255,0,0,255), mouseposfloat, sf::Vector2f(0, 0));
+				Ball myball(circle_size, sf::Color(rand()%color_max, rand() % color_max, rand() % color_max, 255), mouseposfloat, sf::Vector2f(0, 0));
 				myball.draw(mainwindow);
 				
 				

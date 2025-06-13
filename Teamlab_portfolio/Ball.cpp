@@ -19,7 +19,7 @@ Ball::Ball(float radius, const sf::Color& color, sf::Vector2f position, sf::Vect
 }
 
 void Ball::draw(sf::RenderWindow& mainwindow) {
-	//mainwindow.clear();
+	mainwindow.clear();
 	mainwindow.draw(m_circle);
 	mainwindow.display();
 	std::cout << "check" << std::endl;
