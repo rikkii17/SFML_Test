@@ -6,4 +6,4 @@ D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning 
       D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
       'sf::Exception' の宣言を確認してください
   
-  Teamlab_portfolio.vcxproj -> D:\project\Teamlab\C++\Portfolio\Teamlab_portfolio\x64\Debug\Teamlab_portfolio.exe
+  Teamlab_portfolio.vcxproj -> D:\project\Teamlab\C++\Portfolio\TeamLab_portfolio\x64\Debug\Teamlab_portfolio.exe
