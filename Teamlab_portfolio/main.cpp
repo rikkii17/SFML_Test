@@ -15,9 +15,8 @@
 int main() {
 	
 	sf::RenderWindow mainwindow(sf::VideoMode({800, 600}), "Test");
-	//mainwindow.setFramerateLimit(framerate);
+	mainwindow.setFramerateLimit(framerate);
 	while (mainwindow.isOpen()) {
-
 		while (const std::optional event = mainwindow.pollEvent()) {
 			if (event->is<sf::Event::Closed>()) {
 				mainwindow.close();
@@ -29,8 +28,7 @@ int main() {
 				sf::Vector2f mouseposfloat(static_cast<float>(mouseposint.x), static_cast<float>(mouseposint.y));
 				Ball myball(circle_size, sf::Color(rand()%color_max, rand() % color_max, rand() % color_max, 255), mouseposfloat, sf::Vector2f(0, 0));
 				myball.draw(mainwindow);
-				
-				
+
 			}
 		}
 	}

@@ -9,7 +9,8 @@ Ball::Ball(float radius, const sf::Color& color, sf::Vector2f position, sf::Vect
 	:m_radius(radius),
 	m_color(color),
 	m_position(position),
-	m_speed(speed)
+	m_speed(speed),
+	now_position(position)
 {
 	m_circle.setRadius(m_radius);
 	m_circle.setFillColor(m_color);
@@ -19,8 +20,23 @@ Ball::Ball(float radius, const sf::Color& color, sf::Vector2f position, sf::Vect
 }
 
 void Ball::draw(sf::RenderWindow& mainwindow) {
+	m_circle.setPosition(now_position);
 	mainwindow.clear();
 	mainwindow.draw(m_circle);
 	mainwindow.display();
+
 	std::cout << "check" << std::endl;
 }
+
+
+
+/*void move(sf::RenderWindow& mainwindow, sf::Time time) {
+	mainwindow.clear();
+	
+	float timedata = deltatime.asMicroseconds();
+	
+
+
+
+	
+}*/
