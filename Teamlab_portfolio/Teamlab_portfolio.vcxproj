@@ -24,6 +24,7 @@
     <ProjectGuid>{414161ec-5fa5-4028-a2ef-ec4ae1fb308d}</ProjectGuid>
     <RootNamespace>Teamlabportfolio</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SFML_Test</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

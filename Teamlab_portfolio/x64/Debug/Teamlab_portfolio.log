@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中間ディレクトリ (x64\Debug\) に別のプロジェクト (Teamlab_portfolio.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  main.cpp
 D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: DLL インターフェイスではない class 'std::runtime_error' が DLL インターフェイスのベースになる class 'sf::Exception' として使われています。
   (ソース ファイル 'main.cpp' をコンパイルしています)
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdexcept(100,19):
@@ -6,4 +7,13 @@ D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning 
       D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
       'sf::Exception' の宣言を確認してください
   
-  Teamlab_portfolio.vcxproj -> D:\project\Teamlab\C++\Portfolio\Teamlab_portfolio\x64\Debug\Teamlab_portfolio.exe
+  Ball.cpp
+D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: DLL インターフェイスではない class 'std::runtime_error' が DLL インターフェイスのベースになる class 'sf::Exception' として使われています。
+  (ソース ファイル 'Ball.cpp' をコンパイルしています)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\stdexcept(100,19):
+      'std::runtime_error' の宣言を確認してください
+      D:\Library\CPP\lib\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      'sf::Exception' の宣言を確認してください
+  
+  コードを生成中...
+  Teamlab_portfolio.vcxproj -> D:\project\Teamlab\C++\Portfolio\cpp_graphics_test\x64\Debug\SFML_Test.exe
